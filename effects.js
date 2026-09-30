@@ -4,17 +4,12 @@
   const finePointer = matchMedia('(hover: hover) and (pointer: fine)');
   const motion = {paused: reduced.matches};
   window.LaxaMotion = motion;
-  const control = document.querySelector('.motion-control');
   function setMotion(paused) {
     motion.paused = paused;
     document.documentElement.classList.toggle('motion-paused', paused);
-    control.innerHTML = '<span class="motion-glyph" aria-hidden="true">' + (paused ? '▷' : 'Ⅱ') + '</span> ' + (paused ? 'Play motion' : 'Pause motion');
-    control.setAttribute('aria-label', paused ? 'Play all motion' : 'Pause all motion');
-    control.setAttribute('aria-pressed', String(paused));
     window.dispatchEvent(new Event('laxa-motion'));
   }
   setMotion(motion.paused);
-  control.addEventListener('click', () => setMotion(!motion.paused));
   reduced.addEventListener('change', e => setMotion(e.matches));
   const revealElements = document.querySelectorAll('.section-heading, .service-grid, .expertise-heading, .expertise details, .possibility-copy, .workflow, .studio-heading, .studio-copy, .studio-principles article, .process-grid article, .contact-copy, #brief-form, .faq h2, .questions details');
   if ('IntersectionObserver' in window) {

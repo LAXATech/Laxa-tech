@@ -6,7 +6,7 @@ There is no installation or build step.
 
 Features: responsive page, interactive WebGL sculpture, perspective point field,
 scroll reveals, 3D hover tilt, cursor halo lighting, animated workflow connections,
-moving typography, scroll progress, global motion pause, reduced-motion support,
+moving typography, scroll progress, reduced-motion support,
 expanded services, studio background, service selection, project brief download,
 FAQ, and email enquiries addressed to praiselin2005@gmail.com.
 
