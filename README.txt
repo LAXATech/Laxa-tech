@@ -21,3 +21,13 @@ Google Fonts requires an internet connection; system fonts provide a fallback.
 
 Hosting: upload the five website files to any static website host.
 The site has not been deployed; publishing was blocked by session approval policy.
+
+SEO deployment checklist
+
+1. Configure the host to redirect HTTP and www traffic to https://laxatech.tech/.
+2. Add laxatech.tech as a domain property in Google Search Console and Bing Webmaster Tools.
+3. Verify ownership using the provider's DNS record or HTML verification file, then submit
+	https://laxatech.tech/sitemap.xml in both tools.
+4. Keep robots.txt at the domain root. It allows public pages and points crawlers to the sitemap.
+5. Update sitemap.xml whenever a page is added or removed. This static site cannot auto-generate
+	a sitemap without a build or hosting integration.
