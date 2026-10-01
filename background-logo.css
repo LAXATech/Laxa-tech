@@ -1,0 +1,8 @@
+body{position:relative}
+body:before{content:'';position:fixed;inset:0;background:url('bg%20logo.png') center 80px / min(85vw,900px) auto no-repeat;opacity:.2;pointer-events:none;z-index:0}
+body>*{position:relative;z-index:1}
+#ambient-field{z-index:-1}
+.brand{display:inline-flex;align-items:center;gap:8px}
+.brand-logo{display:block;position:relative;width:42px;height:42px;overflow:hidden;flex-shrink:0}
+.brand-logo img{position:absolute;width:108px;height:108px;max-width:none;left:-32px;top:-32px}
+@media(max-width:700px){.brand{gap:7px}.brand-logo{width:34px;height:34px}.brand-logo img{width:96px;height:96px;left:-28px;top:-29px}}
