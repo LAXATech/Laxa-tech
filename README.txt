@@ -8,7 +8,7 @@ Features: responsive page, interactive WebGL sculpture, perspective point field,
 scroll reveals, 3D hover tilt, cursor halo lighting, animated workflow connections,
 moving typography, scroll progress, reduced-motion support,
 expanded services, studio background, service selection, project brief download,
-FAQ, and email enquiries addressed to praiselin2005@gmail.com.
+FAQ, and email enquiries addressed to info@laxatech.tech.
 
 Service descriptions, studio background, location, phone, and social profiles
 were adapted from https://www.laxatech.tech/ and its /about page on 30 Sep 2026.
